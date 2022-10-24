@@ -1,0 +1,116 @@
+html, body{
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+h1{
+    background-color:rgb(240, 101, 124);
+}
+#choices{
+    display:flex;
+  
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.image{
+cursor: pointer;
+    }
+
+#resultat{
+    display: flex;
+}
+#conclusion{
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+#jeu{
+  
+    border: 6px solid peachpuff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+    display:none;
+
+}
+#yourChoice{
+    display: flex;
+
+    flex-direction: row;
+
+   
+    border: 6px solid rgb(11, 126, 30);
+}
+.image{
+    border: 6px solid rgb(241, 238, 45);
+    flex:1;
+    background-size:cover;
+}
+#contest{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#resultat{
+    border: 15px solid rgb(133, 80, 12);
+    display: flex;
+    justify-content: space-between;
+}
+#tonChoix{
+    border: 9px solid rgb(223, 143, 39);
+    display:flex;
+    flex:1;
+    background-color: black;
+}
+#computerChoix{
+    border: 9px solid rgb(241, 167, 69);
+    display:flex;
+    flex:1;
+}
+#vs{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
+#you, #computer{
+    border: 7px solid rgb(133, 80, 12)
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width:100%;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background-color: rgb(60, 154, 216);
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 60px;
+ 
+}
+
+@media screen and (max-width: 800px) {
+    .img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        width: 30px;
+        max-width:100%;height:auto;
+    }
+    }
